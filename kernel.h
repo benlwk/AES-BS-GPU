@@ -19,7 +19,7 @@
 #define gridSize 		msgSize/threadSize/4 // Each thread encrypt one counter value, which is 16 bytes or 4 words.  
 #define gridSizeBS 		msgSize/threadSizeBS/8/4 // Each thread encrypt one counter value, which is 8*16 bytes or 32 words.  
 #define gridSizeBSSM	msgSize/threadSizeBSSM/8/4
-#define ITERATION 		1	// Calculate the average time
+#define ITERATION 		100	// Calculate the average time
 
 // Choose only DEBUG or PROFILE
 #define DEBUG 			// Print results
