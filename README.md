@@ -3,7 +3,7 @@ Bitsliced AES-128-CTR Implementation on GPU. For details of the implementation, 
 
 To compile and the code:
 
-# make clean
-# make -j
-# ./aes
+make clean
+make -j
+./aes
 
